@@ -14,7 +14,10 @@
 
 
 <p>
-> *Live demo coming soon...*
+
+🔗 **Live Project**: [https://one-editor-pearl.vercel.app](https://one-editor-pearl.vercel.app)
+
+> ✨ *Explore the full functionality with live login, project creation, and real-time code editing!*
 
 ---
 
@@ -22,8 +25,8 @@
 
 | Dashboard | Editor | Files |
 |----------|--------|-------|
-| ![demo1](demo/demo1.png) | ![demo2](/demo/demo2.png) | ![demo3](/demo/demo3.png) |
-| ![demo4](/demo/demo4.png) ||
+| ![demo1](demo/demo1.png) | ![demo2](/demo/demo2.png) | ![demo3](/demo/demo3.png) | 
+![demo4](/demo/demo4.png) ||
 ---
 
 ## 🧠 Features
