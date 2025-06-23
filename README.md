@@ -1,29 +1,84 @@
-# Full Stack Editor
+<h1 align="center">🚀 Full Stack Code Editor</h1>
 
-![Alt text](Full%20Stack%20Editor.png?raw=true "Title")
+<p align="center">
+  A powerful and modern full-stack code editor built with Next.js, TypeScript, Tailwind CSS, and MongoDB. Supports real-time file management, live preview, and user authentication.  
+</p>
 
-In this tutorial, we will build a powerful online code editor using Next.js, React, Node.js, and MongoDB. The application will feature secure authentication through Next-Auth, allowing users to create accounts, recover passwords, and resend verification emails. We will use Zod and React Hook Form to validate forms, ensuring a seamless user experience. The editor, beautifully styled with Tailwind CSS and Shadcn UI, enables users to write and run code directly in the browser. Additionally, users can generate and share unique links to their code with others.
+<p align="center">
+  <img src="demo/demo1.png" alt="Full Stack Editor Screenshot" width="800"/>
+</p>
 
-# Demo 
-![Alt text](/demo/1.png?raw=true "demo1")
-![Alt text](/demo/2.png?raw=true "demo2")
-![Alt text](/demo/3.png?raw=true "demo3")
-![Alt text](/demo/4.png?raw=true "demo4")
-![Alt text](/demo/5.png?raw=true "demo5")
-![Alt text](/demo/6.png?raw=true "demo6")
-![Alt text](/demo/7.png?raw=true "demo7")
-![Alt text](/demo/8.png?raw=true "demo8")
+---
 
-# Assets File
-Google Drive : https://drive.google.com/drive/folders/1477Xx3TTTbCN_Y_UA9vdIYQpHpSFyAxf?usp=sharing
+## 🌐 Live Preview
 
 
-Personel Website : https://amitprajapati.co.in/
+<p>
+> *Live demo coming soon...*
 
- <a href="https://www.linkedin.com/in/itsamitprajapati" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="amit prajapati"/>
- </a>
+---
 
- Youtube : Dynamic Coding with Amit
+## 🎥 Demo Screenshots
 
- 
+| Dashboard | Editor | Files |
+|----------|--------|-------|
+| ![demo1](demo/demo1.png) | ![demo2](/demo/demo2.png) | ![demo3](/demo/demo3.png) |
+| ![demo4](/demo/demo4.png) ||
+---
+
+## 🧠 Features
+
+✅ **Authentication**
+- Secure login and registration using NextAuth.js
+- JWT + Credentials-based auth
+
+✅ **Project & File Management**
+- Create, edit, and delete projects
+- Create new files per project (e.g., HTML, CSS, JS)
+- Smart file viewer with file type detection
+
+✅ **Code Editor with Live Preview**
+- Auto-update preview in browser
+- HTML/CSS/JS supported
+- Clean split layout
+
+✅ **Responsive UI**
+- Built with Tailwind CSS and Shadcn UI
+- Optimized for all screen sizes
+
+✅ **Modern Architecture**
+- TypeScript, App Router (Next.js 14+)
+- Server actions & secure APIs
+
+---
+
+## 🧰 Tech Stack
+
+| Category          | Technology |
+|------------------|------------|
+| **Frontend**      | React, Next.js 14+, Tailwind CSS, TypeScript, Zustand |
+| **UI Library**    | Shadcn UI, Lucide Icons, Framer Motion |
+| **Authentication**| NextAuth.js (JWT, Credentials) |
+| **Backend**       | Next.js API Routes |
+| **Database**      | MongoDB with Mongoose |
+| **Preview Engine**| Iframe-based live render |
+| **State Management**| Zustand |
+| **Notifications** | Sonner |
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/YogeshKumar-saini/one-editor.git
+
+# 2. Install dependencies
+pnpm install
+
+# 3. Setup .env
+cp .env.example .env
+# Add your MongoDB URI, NextAuth secret, etc.
+
+# 4. Run development server
+pnpm dev
